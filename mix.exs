@@ -3,7 +3,7 @@ defmodule ExCernan.Mixfile do
 
   def project do
     [
-      app: :excernan,
+      app: :excernan_avro,
       version: "0.0.1",
       dialyzer: [
         plt_add_apps: [:cerlnan_avro],
