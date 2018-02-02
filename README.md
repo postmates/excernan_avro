@@ -1,5 +1,7 @@
 # excernan_avro
 
+[![Build Status](https://travis-ci.org/postmates/excernan_avro.svg?branch=master)](https://travis-ci.org/postmates/excernan_avro)
+
 An Elixir client for Cernan's Avro source.
 
 ## Usage 
