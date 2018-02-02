@@ -1,4 +1,4 @@
-defmodule ExCernan.Mixfile do
+defmodule ExCernanAvro.Mixfile do
   use Mix.Project
 
   def project do
