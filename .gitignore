@@ -1,0 +1,12 @@
+/log
+/_build
+/rel
+/cover
+/deps
+/ebin
+erl_crash.dump
+*.ez
+*.pyc
+tags
+*.swp
+/.rebar3

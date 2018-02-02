@@ -1,0 +1,7 @@
+%{"cerlnan_avro": {:git, "https://github.com/postmates/cerlnan_avro", "4f22c4e4957f0505ddb76d58d1b44b120644d161", [tag: "0.0.1"]},
+  "dialyxir": {:hex, :dialyxir, "0.5.1", "b331b091720fd93e878137add264bac4f644e1ddae07a70bf7062c7862c4b952", [:mix], [], "hexpm"},
+  "erlavro": {:git, "https://github.com/klarna/erlavro.git", "aac12c0c38e0f52c46f777e7e47e7b64ce1fad27", [tag: "2.4.0"]},
+  "goldrush": {:git, "https://github.com/basho/goldrush.git", "8f1b715d36b650ec1e1f5612c00e28af6ab0de82", [tag: "0.1.9"]},
+  "jsone": {:git, "https://github.com/sile/jsone", "e533179d651cc356556bbe5e4b7caddb0919d593", [tag: "1.4.3"]},
+  "lager": {:git, "https://github.com/erlang-lager/lager.git", "81eaef0ce98fdbf64ab95665e3bc2ec4b24c7dac", [tag: "3.2.4"]},
+  "poolboy": {:git, "https://github.com/devinus/poolboy.git", "3bb48a893ff5598f7c73731ac17545206d259fac", [tag: "1.5.1"]}}
