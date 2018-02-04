@@ -42,29 +42,7 @@ The following is a full listing of the options currently available by default:
 
 ### Configuring Pools
 
-`ExCernan.Avro` both publish via `poolboy` backed connection pools.
+`ExCernan.Avro` makes use of `cerlnan_avro` to publish data.
 
-By default, users are given a single pool which is locally addressable as `cerlnan_avro` initialized with
-default arguments. However, users can make use of their `Application` environment to configure their own pools.
-
-**Note** - When not using or configuring a pool named `cerlnan_avro` calls to `publish/3` and `publish/4` will
-no longer work as they assume usage of the `cerlnan_avro` pool.  Variations of these calls which allow users to
-select the pool to publish from are available.
-
-The following example demonstrates reconfiguring the `cerlnan_avro` pool with 100 connections and 200 overflow workers:
-
-#### Elixir
-
-```elixir
-    config :cerlnan_avro,
-        pools: [
-            {:cerlnan_avro,
-             %{:pool_size => 100,
-               :pool_overflow => 200
-              }
-            }]
-```
-
-#### Pool Config
-
-For a complete listing of configuration options available see - [cerlnan_avro](https://github.com/postmates/cerlnan_avro#pool-config).
+See [Configuring Pools](https://github.com/postmates/cerlnan_avro#configuring-pools) for details on
+pool configuration.
