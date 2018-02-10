@@ -15,7 +15,7 @@ defmodule ExCernanAvro.Mixfile do
 
   defp deps do
     [{:dialyxir, "~> 0.5.1", only: [:dev, :test], runtime: false},
-     {:cerlnan_avro, git: "https://github.com/postmates/cerlnan_avro", tag: "0.0.3"},
+     {:cerlnan_avro, git: "https://github.com/postmates/cerlnan_avro", tag: "0.0.4"},
     ]
   end
 
