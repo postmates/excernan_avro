@@ -26,6 +26,10 @@ ExCernan.Avro.publish("example.avro.User", schema, users)
 
 # Async publish users.
 ExCernan.Avro.publish("example.avro.User", schema, users, %{:sync => false})
+
+# Async publish users and sequence the publication by the term "fizzbuzz".
+# Note - shard_by values must be hashable by phash2.
+ExCernan.Avro.publish("example.avro.User", schema, users, %{:sync => false, :shard_by => "fizzbuzz"})
 ```
 
 ### Available Publication Options
