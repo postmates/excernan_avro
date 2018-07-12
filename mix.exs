@@ -6,6 +6,7 @@ defmodule ExCernanAvro.Mixfile do
       app: :excernan_avro,
       version: "0.0.1",
       dialyzer: [
+        plt_add_deps: :apps_direct,
         plt_add_apps: [:cerlnan_avro],
         flags: [:unmatched_returns,:error_handling,:race_conditions, :no_opaque],
       ],
