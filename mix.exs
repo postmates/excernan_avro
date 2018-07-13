@@ -4,7 +4,7 @@ defmodule ExCernanAvro.Mixfile do
   def project do
     [
       app: :excernan_avro,
-      version: "0.0.1",
+      version: "0.0.2",
       dialyzer: [
         plt_add_apps: [:cerlnan_avro],
         flags: [:unmatched_returns,:error_handling,:race_conditions, :no_opaque],
@@ -15,7 +15,7 @@ defmodule ExCernanAvro.Mixfile do
 
   defp deps do
     [{:dialyxir, "~> 0.5.1", only: [:dev, :test], runtime: false},
-     {:cerlnan_avro, git: "https://github.com/postmates/cerlnan_avro", tag: "0.0.4"},
+     {:cerlnan_avro, github: "postmates/cerlnan_avro", tag: "0.0.5"},
     ]
   end
 
