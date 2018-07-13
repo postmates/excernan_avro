@@ -4,7 +4,7 @@ defmodule ExCernanAvro.Mixfile do
   def project do
     [
       app: :excernan_avro,
-      version: "0.0.2",
+      version: "0.0.5",
       dialyzer: [
         plt_add_apps: [:cerlnan_avro],
         flags: [:unmatched_returns, :error_handling, :race_conditions, :no_opaque]
